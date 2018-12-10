@@ -3,10 +3,10 @@ import time
 
 class N8Timer(object):
 
-    def __init__(self, interval, f, oneshot=False, args=[], kwargs={}):
+    def __init__(self, interval, callback_func, oneshot=False, args=[], kwargs={}):
         self._interval = interval
         self._oneshot = oneshot
-        self._f = f
+        self._f = callback_func
         self._args = args
         self._kwargs = kwargs
         self._timer = None
