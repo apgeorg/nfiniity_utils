@@ -4,7 +4,7 @@ Diverse python utils by nfiniity GmbH
 ## Installation
 ### There are two ways to install nfiniity-utils:
 
-Install Keras from PyPI (recommended):
+Install nfiniity-utils from PyPI (recommended):
 ```
 sudo pip install nfiniity-utils
 ```
