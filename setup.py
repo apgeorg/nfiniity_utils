@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nfiniity_utils",
-    version="0.0.2",
+    version="0.0.4",
     author="Apostolos Georgiadis",
     author_email="apostolos.georgiadis@nfiniity.com",
     description=" Diverse python utils by nfiniity GmbH",
