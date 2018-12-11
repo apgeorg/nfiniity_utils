@@ -1,1 +1,1 @@
-from nfiniity_utils.timer import N8Timer
+from nfiniity_utils.timer import Timer

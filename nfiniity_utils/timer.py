@@ -1,7 +1,8 @@
-from threading import Timer
+import threading
 import time
 
-class N8Timer(object):
+
+class Timer(object):
 
     def __init__(self, interval, callback_func, oneshot=False, args=[], kwargs={}):
         self._interval = interval
@@ -29,7 +30,7 @@ class N8Timer(object):
             self._timer = None
 
     def start(self):
-        self._timer = Timer(self._interval, self._callback)
+        self._timer = threading.Timer(self._interval, self._callback)
         self._start_time = time.time()
         self._timer.start()
 
