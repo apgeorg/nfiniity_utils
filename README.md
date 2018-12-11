@@ -1,5 +1,5 @@
 # nfiniity-utils
-Diverse python utils by http://www.nfiniity.com/
+Diverse python utils by http://www.nfiniity.com
 
 ## Installation
 ### There are two ways to install nfiniity-utils:
