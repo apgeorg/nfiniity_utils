@@ -12,7 +12,7 @@ If you are using a virtualenv, you may want to avoid using sudo:
 ```
 pip install nfiniity-utils
 ```
-## Alternatively: install nfiniity-utils from the GitHub source:
+### Alternatively: install nfiniity-utils from the GitHub source:
 First, clone nfiniity-utils using `git`:
 ```
 git clone https://github.com/apgeorg/nfiniity_utils.git
