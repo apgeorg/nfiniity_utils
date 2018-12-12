@@ -22,5 +22,30 @@ Then, cd to the nfiniity_utils folder and run the install command:
 cd nfiniity_utils
 sudo python setup.py install
 ```
+## Getting started
+### Timer
+```python
+import nfiniity_utils as n8
+
+# Timer callback function
+def timer_timeout():
+  print("Hello!")
+
+# Create a Timer which runs periodically 
+t = n8.Timer(1, timer_timeout, oneshot=False)
+
+# Start running
+t.start()
+```
+
+You can now stop the timer:
+
+```python
+t.stop()
+```
+
+
+
+
 
 
