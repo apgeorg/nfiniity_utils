@@ -1,6 +1,4 @@
-# nfiniity-utils
-[![PyPI version](https://badge.fury.io/py/nfiniity-utils.svg)](https://badge.fury.io/py/nfiniity-utils)
-
+# nfiniity-utils [![PyPI version](https://badge.fury.io/py/nfiniity-utils.svg)](https://badge.fury.io/py/nfiniity-utils)
 Diverse python utilities by http://www.nfiniity.com
 
 ## Installation
