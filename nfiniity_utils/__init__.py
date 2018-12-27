@@ -1,3 +1,3 @@
-from nfiniity_utils.timer import Timer
+from .timer import Timer
 
-version="0.0.5"
+__version__="0.0.6"
