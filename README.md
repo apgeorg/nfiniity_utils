@@ -1,5 +1,7 @@
 # nfiniity-utils
-Diverse python utils by http://www.nfiniity.com
+[![PyPI version](https://badge.fury.io/py/nfiniity-utils.svg)](https://badge.fury.io/py/nfiniity-utils)
+
+Diverse python utilities by http://www.nfiniity.com
 
 ## Installation
 ### There are two ways to install nfiniity-utils:
